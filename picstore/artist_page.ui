@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>artist_page</class>
+ <widget class="QWidget" name="artist_page">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>823</width>
+    <height>688</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>名字</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>30</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>名字</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>作品数</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="number">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>100</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>作品数</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>热度</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hot">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>170</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>热度</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>全部作品：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>150</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>26</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>收藏</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pic1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>360</y>
+     <width>201</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>pic1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pic2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>360</y>
+     <width>201</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>pic2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="pic3">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>360</y>
+     <width>201</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>pic3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next_pic">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>440</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pre_pic">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>440</y>
+     <width>41</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>560</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hot1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>600</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="time1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>640</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>560</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="time2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>640</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hot2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>600</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name3">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>560</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="time3">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>640</y>
+     <width>211</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hot3">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>600</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
