@@ -6,37 +6,18 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>597</width>
-    <height>399</height>
+    <width>588</width>
+    <height>383</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>50</y>
-     <width>161</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Arial</family>
-     <pointsize>18</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>设置用户名</string>
-   </property>
-  </widget>
   <widget class="QTextEdit" name="passwordin">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>110</y>
+     <x>200</x>
+     <y>150</y>
      <width>311</width>
      <height>51</height>
     </rect>
@@ -46,7 +27,7 @@
    <property name="geometry">
     <rect>
      <x>190</x>
-     <y>310</y>
+     <y>270</y>
      <width>141</width>
      <height>71</height>
     </rect>
@@ -64,8 +45,8 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>190</y>
+     <x>30</x>
+     <y>50</y>
      <width>161</width>
      <height>41</height>
     </rect>
@@ -80,21 +61,11 @@
     <string>设置用户名</string>
    </property>
   </widget>
-  <widget class="QTextEdit" name="usernamein">
-   <property name="geometry">
-    <rect>
-     <x>180</x>
-     <y>40</y>
-     <width>311</width>
-     <height>51</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QCheckBox" name="checkBox">
    <property name="geometry">
     <rect>
      <x>400</x>
-     <y>250</y>
+     <y>210</y>
      <width>211</width>
      <height>61</height>
     </rect>
@@ -109,11 +80,11 @@
     <string>我是创作者</string>
    </property>
   </widget>
-  <widget class="QTextEdit" name="passwordin_2">
+  <widget class="QTextEdit" name="usernamein">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>190</y>
+     <x>200</x>
+     <y>50</y>
      <width>311</width>
      <height>51</height>
     </rect>
@@ -122,8 +93,8 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>120</y>
+     <x>30</x>
+     <y>160</y>
      <width>161</width>
      <height>41</height>
     </rect>

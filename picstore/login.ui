@@ -13,10 +13,10 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="login">
    <property name="geometry">
     <rect>
-     <x>170</x>
+     <x>90</x>
      <y>310</y>
      <width>121</width>
      <height>61</height>
@@ -29,7 +29,7 @@
     </font>
    </property>
    <property name="text">
-    <string>登陆</string>
+    <string>登录</string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
@@ -48,7 +48,7 @@
     </font>
    </property>
    <property name="text">
-    <string>用户名</string>
+    <string>ID</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -70,7 +70,7 @@
     <string>密码</string>
    </property>
   </widget>
-  <widget class="QTextEdit" name="textEdit">
+  <widget class="QTextEdit" name="usernamein">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -79,8 +79,14 @@
      <height>51</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
   </widget>
-  <widget class="QTextEdit" name="textEdit_2">
+  <widget class="QTextEdit" name="passwordin">
    <property name="geometry">
     <rect>
      <x>150</x>
@@ -88,6 +94,31 @@
      <width>231</width>
      <height>51</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="register_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>310</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>注册</string>
    </property>
   </widget>
  </widget>

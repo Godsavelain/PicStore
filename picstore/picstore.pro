@@ -30,17 +30,35 @@ SOURCES += \
     login.cpp \
     pic_show.cpp \
     regist.cpp \
-    pic_info.cpp
+    pic_info.cpp \
+    big_pic.cpp \
+    artist_page.cpp \
+    user_page.cpp \
+    manage_page.cpp \
+    check_page.cpp \
+    change_info.cpp
 
 HEADERS += \
         mainwindow.h \
     login.h \
     pic_show.h \
     regist.h \
-    pic_info.h
+    pic_info.h \
+    big_pic.h \
+    artist_page.h \
+    user_page.h \
+    manage_page.h \
+    check_page.h \
+    change_info.h
 
 FORMS += \
         mainwindow.ui \
     login.ui \
     pic_show.ui \
-    regist.ui
+    regist.ui \
+    big_pic.ui \
+    artist_page.ui \
+    user_page.ui \
+    manage_page.ui \
+    check_page.ui \
+    change_info.ui

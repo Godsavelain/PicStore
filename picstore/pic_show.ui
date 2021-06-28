@@ -113,7 +113,7 @@
    <property name="geometry">
     <rect>
      <x>80</x>
-     <y>260</y>
+     <y>250</y>
      <width>101</width>
      <height>16</height>
     </rect>
@@ -126,7 +126,7 @@
    <property name="geometry">
     <rect>
      <x>320</x>
-     <y>260</y>
+     <y>250</y>
      <width>101</width>
      <height>16</height>
     </rect>
@@ -139,7 +139,7 @@
    <property name="geometry">
     <rect>
      <x>560</x>
-     <y>260</y>
+     <y>250</y>
      <width>101</width>
      <height>16</height>
     </rect>
@@ -191,7 +191,7 @@
    <property name="geometry">
     <rect>
      <x>80</x>
-     <y>290</y>
+     <y>280</y>
      <width>101</width>
      <height>16</height>
     </rect>
@@ -204,7 +204,7 @@
    <property name="geometry">
     <rect>
      <x>320</x>
-     <y>290</y>
+     <y>280</y>
      <width>101</width>
      <height>16</height>
     </rect>
@@ -217,7 +217,7 @@
    <property name="geometry">
     <rect>
      <x>560</x>
-     <y>290</y>
+     <y>280</y>
      <width>101</width>
      <height>16</height>
     </rect>
@@ -269,7 +269,7 @@
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>320</y>
+     <y>310</y>
      <width>181</width>
      <height>16</height>
     </rect>
@@ -282,7 +282,7 @@
    <property name="geometry">
     <rect>
      <x>300</x>
-     <y>320</y>
+     <y>310</y>
      <width>181</width>
      <height>16</height>
     </rect>
@@ -295,7 +295,7 @@
    <property name="geometry">
     <rect>
      <x>540</x>
-     <y>330</y>
+     <y>310</y>
      <width>171</width>
      <height>16</height>
     </rect>
@@ -419,6 +419,84 @@
    </property>
    <property name="text">
     <string>hot</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="show1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="show2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>20</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="show3">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>20</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="show4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>330</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="show5">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>330</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="show6">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>330</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
    </property>
   </widget>
  </widget>

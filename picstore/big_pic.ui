@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>755</width>
+    <width>883</width>
     <height>700</height>
    </rect>
   </property>
@@ -197,7 +197,7 @@
     <string>作者页</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="like">
    <property name="geometry">
     <rect>
      <x>570</x>
@@ -214,6 +214,45 @@
    </property>
    <property name="text">
     <string>收藏</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>60</y>
+     <width>141</width>
+     <height>511</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_tag">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>650</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>增加tag</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="tagin">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>590</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
    </property>
   </widget>
  </widget>
